@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: servicea
-        image: quay.io/mohamed_magdi/ossm-tracing-servicea:1.0
+        image: quay.io/rh_ee_tcalvert/ossm-tracing-servicea:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
